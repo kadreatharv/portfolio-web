@@ -14,10 +14,24 @@ section {
 
 :root {
   --bg-color: #050000;
-  --text-color: #ffe6eb; /* Slightly red-tinted white for Blood Moon theme */
-  --accent-color: #ff003c; /* Blood Moon Crimson */
+  --text-color: #ffe6eb;
+  --accent-color: #ff003c;
   --nav-height: 100px;
   --sidebar-width: 100px;
+}
+
+@media (max-width: 1200px) {
+  :root {
+    --nav-height: 80px;
+    --sidebar-width: 80px;
+  }
+}
+
+@media (max-width: 768px) {
+  :root {
+    --nav-height: 60px;
+    --sidebar-width: 0px; /* Hide sidebar on mobile */
+  }
 }
 
 * {
