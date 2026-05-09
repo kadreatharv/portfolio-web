@@ -1,0 +1,123 @@
+.work-section {
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+  background: transparent;
+}
+
+.work-section h2 {
+  margin-bottom: 50px;
+  font-size: 5rem;
+  font-weight: 700;
+  text-align: center;
+  padding-top: 5vh;
+}
+
+.work-section h2>span {
+  color: var(--accent-color);
+}
+
+.work-container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.work-flex {
+  display: flex;
+  gap: 100px;
+  padding: 0 4vw;
+  padding-left: calc(var(--sidebar-width) + 70vw);
+  height: 60vh;
+  align-items: center;
+}
+
+.work-box {
+  flex-shrink: 0;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  transition: transform 0.1s ease-out;
+}
+
+.work-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.work-title h3 {
+  font-size: 4rem;
+  font-weight: 800;
+  opacity: 0.1;
+  line-height: 1;
+}
+
+.work-title h4 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.work-title p {
+  color: var(--accent-color);
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  letter-spacing: 2px;
+}
+
+.work-image {
+  width: 100%;
+  height: 300px;
+  border-radius: 20px;
+  overflow: hidden;
+  position: relative;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.work-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.work-box:hover .work-image img {
+  transform: scale(1.1);
+}
+
+.work-info h4 {
+  font-size: 1rem;
+  opacity: 0.5;
+  margin-bottom: 5px;
+}
+
+.work-info p {
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+.work-link {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 60px;
+  height: 60px;
+  background: var(--accent-color);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 1.5rem;
+  opacity: 0;
+  transition: 0.3s;
+  z-index: 2;
+}
+
+.work-image:hover .work-link {
+  opacity: 1;
+}
