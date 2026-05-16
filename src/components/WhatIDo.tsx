@@ -150,7 +150,7 @@ const WhatIDo: React.FC = () => {
             fontWeight: 600,
             opacity: 0.8
           }}>SERVICES</h3>
-          <h1 className="what-i-do-title" style={{ fontSize: 'clamp(3rem, 5vw, 6rem)', lineHeight: 0.9, color: '#fff', fontWeight: 900, letterSpacing: '-2px' }}>
+          <h1 className="what-i-do-title" style={{ fontSize: 'clamp(2.5rem, 4vw, 4rem)', lineHeight: 0.9, color: '#fff', fontWeight: 900, letterSpacing: '-2px' }}>
             WHAT<br />
             I DO
           </h1>

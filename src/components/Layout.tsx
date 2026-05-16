@@ -15,10 +15,10 @@ const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
         display: 'flex', justifyContent: 'space-between', alignItems: 'center',
         padding: '0 4vw', zIndex: 100, mixBlendMode: 'difference'
       }}>
-        <div style={{ fontSize: '2.5rem', fontWeight: 800 }}>
+        <div style={{ fontSize: '1.5rem', fontWeight: 800 }}>
           <a href="/" style={{ color: 'inherit', textDecoration: 'none', letterSpacing: '2px' }}>ATHARV.DEV</a>
         </div>
-        <div style={{ display: 'flex', gap: '3rem', fontSize: '1.2rem', fontWeight: 700 }}>
+        <div style={{ display: 'flex', gap: '2rem', fontSize: '0.9rem', fontWeight: 700 }}>
           <a href="#about" style={{ letterSpacing: '2px' }}>ABOUT</a>
           <a href="#career" style={{ letterSpacing: '2px' }}>ACHIEVEMENTS</a>
           <a href="#work" style={{ letterSpacing: '2px' }}>WORK</a>
@@ -29,8 +29,8 @@ const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
 
       {/* Right Side Email (Vertical) */}
       <div style={{
-        position: 'fixed', right: '-80px', top: '50%', transform: 'translateY(-50%) rotate(90deg)',
-        fontSize: '1rem', letterSpacing: '4px', opacity: 0.6, zIndex: 100, fontWeight: 600, mixBlendMode: 'difference'
+        position: 'fixed', right: '-60px', top: '50%', transform: 'translateY(-50%) rotate(90deg)',
+        fontSize: '0.8rem', letterSpacing: '3px', opacity: 0.6, zIndex: 100, fontWeight: 600, mixBlendMode: 'difference'
       }}>
         <a href="mailto:atharvkadre@gmail.com">ATHARVKADRE@GMAIL.COM</a>
       </div>
@@ -41,10 +41,10 @@ const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
         display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center',
         gap: '3.5rem', zIndex: 100, mixBlendMode: 'difference'
       }}>
-        <a href="https://github.com/kadreatharv" target="_blank" rel="noreferrer" style={{ fontSize: '3.5rem' }}><FaGithub /></a>
-        <a href="https://linkedin.com/in/atharv-kadre-01485b27b" target="_blank" rel="noreferrer" style={{ fontSize: '3.5rem' }}><FaLinkedin /></a>
-        <a href="https://x.com/Kadreatharv" target="_blank" rel="noreferrer" style={{ fontSize: '3.5rem' }}><FaXTwitter /></a>
-        <a href="https://www.instagram.com/kadre_athxrv?igsh=aGZ1czlqZGV0aXYy" target="_blank" rel="noreferrer" style={{ fontSize: '3.5rem' }}><FaInstagram /></a>
+        <a href="https://github.com/kadreatharv" target="_blank" rel="noreferrer" style={{ fontSize: '1.8rem' }}><FaGithub /></a>
+        <a href="https://linkedin.com/in/atharv-kadre-01485b27b" target="_blank" rel="noreferrer" style={{ fontSize: '1.8rem' }}><FaLinkedin /></a>
+        <a href="https://x.com/Kadreatharv" target="_blank" rel="noreferrer" style={{ fontSize: '1.8rem' }}><FaXTwitter /></a>
+        <a href="https://www.instagram.com/kadre_athxrv?igsh=aGZ1czlqZGV0aXYy" target="_blank" rel="noreferrer" style={{ fontSize: '1.8rem' }}><FaInstagram /></a>
       </aside>
 
       {/* Main Content */}
